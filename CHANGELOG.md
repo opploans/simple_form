@@ -1,37 +1,12 @@
-## Unreleased
-
-## 3.5.0
-
-* Updated gem dependency to support Rails 5.1.x.
-
-## 3.4.0
-
-* Removed Ruby 2.4.0 `Integer` unification deprecation warning.
-* Removed EOL Ruby 1.9.3 from the build matrix.
-* Added `minlength` component.
-* `boolean_label_class` can be set on a per-input basis.
-
-## 3.3.1
-
-### Bug fix
-
-* Fix support for symbols when looking up types with `ActiveModel::Type`.
-
-## 3.3.0
+## todo
 
 ### enhancements
-  * Add the `aria-invalid` attribute on inputs with errors.
-  * Added support for the new `ActiveModel::Type` API over Active Record's
-    column objects.
 
-### bug fix
-  * Fix `merge_wrapper_options` to correctly merge options with duplicated keys. [@herminiotorres](https://github.com/herminiotorres)
-  Closes [#1278](https://github.com/plataformatec/simple_form/issues/1278).
+* Add bootstrap 4 initializer template.
 
 ## 3.2.1
 
-### enhancements
-  * Updated gem dependency to support Rails 5.0.x.
+* Updated gem dependency to support Rails 5.0.x.
 
 ## 3.2.0
 
